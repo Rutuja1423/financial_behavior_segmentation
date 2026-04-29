@@ -256,24 +256,6 @@ financial-behavior-segmentation/
 
 ---
 
-## Resume Bullet
-
-Built a Python-based financial behavior segmentation project using synthetic survey data, hypothesis testing, regression analysis, PCA, and K-Means clustering to identify actionable user segments for personal finance and fintech applications.
-
----
-
-## LinkedIn Project Description
-
-Built a financial behavior segmentation model using Python to analyze how behavioral factors like impulse buying, stress spending, and financial literacy impact savings outcomes.
-
-Applied statistical analysis (correlation, ANOVA, regression) and machine learning (PCA, K-Means) to identify distinct user segments.
-
-Found that impulse buying had a strong negative impact on savings (r = -0.49), while financial literacy improved budgeting behavior (r = 0.50).
-
-Translated insights into product strategies such as spending alerts, behavioral nudges, and segment-based financial recommendations for fintech applications.
-
----
-
 ## Limitations
 
 - **Synthetic Data:** Since the dataset is synthetic, analytical relationships (like the regression R² of 0.793) appear stronger than they would in real-world scenarios due to a lack of organic noise. 
