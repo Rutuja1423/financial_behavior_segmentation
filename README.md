@@ -1,10 +1,22 @@
 # Financial Behavior Segmentation
+## Statistical Analysis and Behavioral Segmentation Using Synthetic Financial Survey Data
 
 ![Dashboard Summary](assets/dashboard_summary.png)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Statsmodels](https://img.shields.io/badge/statsmodels-%233F51B5.svg?style=for-the-badge&logo=python&logoColor=white)
+
+## Quick Summary
+
+| Area | Result |
+|---|---|
+| Dataset | 600 synthetic young adult financial behavior records |
+| Reliability | Cronbach's Alpha values above 0.88 |
+| Strongest relationship | Impulse buying negatively related to savings rate, r = -0.495 |
+| Regression performance | R² = 0.793 for savings rate prediction |
+| Best clustering result | 2 clusters using K-Means, silhouette score = 0.246 |
+| Final segments | Disciplined Savers and Impulse Spenders |
 
 ## 1. Business Problem
 
@@ -129,12 +141,3 @@ To upgrade this model for production-level deployment, the following steps would
 | :--- | :--- | :--- |
 | **Rutuja Shinde** | Data Analyst / Data Scientist | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rutuja1423) |
 
-## Resume Bullet
-
-Built a Python-based financial behavior segmentation pipeline (`src/`) using statistical hypothesis testing, regression analysis, PCA, and K-Means clustering to identify actionable user segments for personalized fintech applications.
-
-## LinkedIn Project Description
-
-Built a financial behavior segmentation model using Python to analyze how behavioral factors like impulse buying, stress spending, and financial literacy impact savings outcomes.
-
-Applied statistical analysis (correlation, ANOVA, regression) and machine learning (PCA, K-Means) to identify distinct user segments. Found that impulse buying had a strong negative impact on savings (r = -0.49), while financial literacy improved budgeting behavior (r = 0.50). Translated insights into product strategies such as spending alerts, behavioral nudges, and segment-based financial recommendations for fintech applications.
